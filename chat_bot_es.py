@@ -22,8 +22,8 @@ def transcribe_audio_to_test(filename):
         print("Señor, no entiendo que ha podido pasar. Que ha tocado?")
 
 def generate_response(prompt):
-
-    role = "Actua como JARVIS el asistente virtual de IRONMAN, con humor y bastante sarcasmo. Responde siempre llamándome señor pero con humor sarcástico"
+    role = "Actua como J.A.R.V.I.S el asistente de Tony Stark, responde con humor y sarcasmo y dirígete siempre a mi llmándome señor"
+    #role = "Actua como una persona con un CI alto. Responde siempre llamándome FITO pero con humor sarcástico."
     full_prompt = f"Role: {role}\n{prompt}"
     response= openai.Completion.create(
         engine="gpt-3.5-turbo-instruct",
@@ -51,7 +51,7 @@ def speak_text(text):
 def main():
     while True:
         #Waith for user say "genius"
-        print("Di 'claro' para empezar a grabar")
+        print("Di 'hola, claro o me matas' para empezar a grabar")
         with sr.Microphone() as source:
             recognizer=sr.Recognizer()
             audio=recognizer.listen(source)
