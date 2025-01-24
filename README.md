@@ -29,7 +29,7 @@ You will need to create a .env file with the following environment variables:
   * `JARVIS_PROMPT`: The prompt used to generate responses (default: `You are JARVIS, the assistant of Tony Stark. Respond with humor and sarcasm, and direct yourself to the user as 'señor'.`)
   * `ACTIVATION_KEYWORDS`: The keywords used to activate the assistant (default: `hola,claro,me matas`)
   * `PAUSE_THRESHOLD`: The pause threshold in seconds (default: `1.0`)
-  * `AUDIO_FILE`: The name of the audio file to save recordings to (default: `input.wav`)
+  * `AUDIO_FILE`: The name of the audio file to save recordings to (default: `input.wav`).
 
 ### Usage
 
