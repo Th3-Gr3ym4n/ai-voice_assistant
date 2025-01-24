@@ -1,7 +1,8 @@
-## AI JARVIS Text-to-Speech Assistant
+## AI JARVIS Text-to-Speech Assistant Lab
 
 This Python script provides a speech recognition and text-to-speech assistant. It uses the OpenAI API to generate responses and the Google Speech Recognition library to transcribe audio.
 
+This is a lab for my own investigation and learning.
 ### Installation
 
 To use this script, you will need to install the following dependencies:
